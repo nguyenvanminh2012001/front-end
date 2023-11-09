@@ -1,0 +1,63 @@
+body {
+  margin-top: 20px;
+  color: #9b9ca1;
+}
+.bg-secondary-soft {
+  background-color: rgba(208, 212, 217, 0.1) !important;
+}
+.rounded {
+  border-radius: 5px !important;
+}
+.py-5 {
+  padding-top: 3rem !important;
+  padding-bottom: 3rem !important;
+}
+.px-4 {
+  padding-right: 1.5rem !important;
+  padding-left: 1.5rem !important;
+}
+.file-upload .square {
+  height: 250px;
+  width: 250px;
+  margin: auto;
+  vertical-align: middle;
+  border: 1px solid #e5dfe4;
+  background-color: #fff;
+  border-radius: 5px;
+}
+.text-secondary {
+  --bs-text-opacity: 1;
+  color: rgba(208, 212, 217, 0.5) !important;
+}
+.btn-success-soft {
+  color: #28a745;
+  background-color: rgba(40, 167, 69, 0.1);
+}
+.btn-danger-soft {
+  color: #dc3545;
+  background-color: rgba(220, 53, 69, 0.1);
+}
+.form-control {
+  display: block;
+  width: 500px;
+  padding: 0.5rem 1rem;
+  font-size: 0.9375rem;
+  font-weight: 400;
+  line-height: 1.6;
+  color: #29292e;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #e5dfe4;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 5px;
+  -webkit-transition: border-color 0.15s ease-in-out,
+    -webkit-box-shadow 0.15s ease-in-out;
+  transition: border-color 0.15s ease-in-out,
+    -webkit-box-shadow 0.15s ease-in-out;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out,
+    -webkit-box-shadow 0.15s ease-in-out;
+}
+/* [<link rel = "styleSheet" href = "https://cdnjs.cloudflare.com/ajax/libs/font-awgie/5.13.1/css/all.min.css" liêm chính = "sha256-2xfpl Crossorigin = "Anonymous" /> <div class = "container"> <div class = "hàng"> <div class = "col-12"> <!-tiêu đề trang-> <div class = "my-5 "> <H3> Hồ sơ của tôi </h3> <hr> </div> <! > <!-Chi tiết liên lạc-> <div class = "col-xxl-8 mb-5 mb-xxl-0"> <div class = " div class = "hàng g-3"> <h4 class = "mb-4 mt-0"> Chi tiết liên hệ </h4> <!-tên đầu tiên-> <div class = "col-md-6">> không /div> <!-Tên cuối cùng-> <div class = "col-md-6"> <nhãn class = "form-la-lapel"> Tên cuối cùng *</nhãn> <input type = "text" class = "Trình điều khiển hình thức" trình giữ chỗ = "" aria-Label = "tên cuối cùng" value = "doe"> </div> <!-số điện thoại-> <div class = "col-m D-6 "> <Label Class =" Form-Label "> Số điện thoại *</Label> <Input Type =" Text "Class =" Form-Control "Placeholder =" "ARIA-Label =" Số điện thoại "Giá trị = Giá trị = giá trị = "(333) 000 555"> </div> <! không class = "col-md-6"> <Label for = "inputEmail4" class = "form-lawel"> email *</nhãn> <input type = "email" class = "form-control" id = "inputEmail4" value = "example@homerealty.com"> </div> <!-Skype-> <div class = "col-md-6"> <nhãn class = "form-label"> skype *</mlean> không </div> </div> <!-Hồ sơ tải lên-> <div class = "col-xxl-4"> <div class = " class = "hàng g-3"> <h4 class = "mb-4 mt-0"> Tải lên ảnh hồ sơ của bạn </h4> <div class = "văn bản-center"> <!- -Tải lên hình ảnh-> <div class = "Hiển thị vị trí vuông-vị trí-2 MB-3"> <i class = "fas fa-fw fa-người dùng không "for =" CustomFile "> Tải lên </nhãn> <nút loại =" nút "class =" btn btn-danger-soft "> Xóa </nút> <! Đã tắt MT-3 MB-0 "> <span class =" me-1 "> Lưu ý: </span> Kích thước tối thiểu 300px x 300px </p> </div> </div> </div> </div> </div> <!-Kết thúc hàng-> <!-Chi tiết phương tiện truyền thông xã hội-> <div class = "hàng MB-5 GX-5"> <div class = "col-xxl-6 MB-5 MB-xxl-0 "> <div class =" bg-secondary-soft px-4 py-5 tròn "> <div class =" row g-3 "> <h4 class =" mb-4 mt-0 ">> Chi tiết phương tiện truyền thông xã hội </h4> <!-Facebook-> <div class = "col-md-6"> <nhãn class = "form-lawel"> <i class = "fab fa-fw fa-face -2 Text-faceBook "> Facebook *</Label> <input type =" Text "class =" form-control "faceholder =" "aria-label =" facebook "value =" http: // www.facebook.com "> </div> <!-Twitter-> <div class =" col-md-6 "> <nhãn class =" form-label "> <i class =" fab fa-fw fa-twitter text-twitter mE-2 "> twitter *</nhãn> <input type =" text "class =" form-control "faceholder =" "aria-label =" twitter "value =" http: // wwww .twitter.com "> </div> <!-LinkedIn-> <div class =" col-md-6 "> <nhãn class =" form-label "> <i class =" fab fa-fw fa fa fa fa fa fa fa fa fa fa fa fa -LinkedIn-in Text-Linkedin ME-2 "> LinkedIn *</Label> <Input Type =" Text "class =" Form-Control "Placeholder =" "aria-Label =" LinkedIn "value =" http: // www.linkedin.com "> </div> <!-nhạc cụ-> <div class =" col-md-6 "> <nhãn class =" form-label "> <i class =" fab fa-fw fa-instagram text-instagram me-2 "> instagram *</nhãn> <input type =" text "class =" form-control "faceholder =" "aria-label =" pastagram "value =" http: // www .Instragram.com "> </div> <!-Dribble-> <div class =" col-md-6 "> <nhãn class =" form-label "> <i class =" fas fa-fw fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa -basketball-ball text-dribbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb Label = "Dribble" value = "http://www.dribble.com"> </div> <!-Pinterest-> <div class = "col-md-6"> <nhãn class = "form- form- Nhãn "> <i class =" fab fa-fw fa-pinterest text-pinterest "> Pinterest *</nhãn> <input type =" text "class =" form-control "faceholder =" "aria-label =" Pinterest "value =" http://www.pinterest.com "> </div> </div> <!-Hàng kết thúc-> </div> </div> <!-Thay đổi mật khẩu-> < div class = "col-xxl-6"> <div class = "bg-secondary-soft px-4 py-5 tròn"> <div class = "row g-3"> <h4 class = "my-4" > Thay đổi mật khẩu </h4> <!-Mật khẩu cũ-> <div class = "col-md-6"> <Label for = "exampleInputPassword1" class = "form-lawel"> Mật khẩu cũ *</nhãn> không exampleInputPassword2 "class =" form-lawel "> Mật khẩu mới *</nhãn> <input type =" password "class =" form-control "id =" exampleInputPassword2 "> </div> <!-Xác nhận mật khẩu-> không = "Label-Label"> Xác nhận mật khẩu *</Label> <Input type = "Mật khẩu" class = "Form-Control" id = "exampleInputPassword3"> </div> </div> </div> </div> </div> <!-Kết thúc hàng-> <!-nút-> <div class = "GAP-3 D-MD-FLEX Justify-Content-MD-end Text-Center"> <nút Type = "Nút" class = "btn btn-danger btn-lg"> Xóa cấu hình </nút> <nút loại = "nút" class = "btn btn-primary btn-lg"> Cập nhật cấu hình </nút> </div> </form> <!-Mẫu kết thúc-> </div> </div> </div>] x */

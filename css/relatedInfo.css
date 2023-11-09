@@ -1,0 +1,138 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wapperInfoPet{
+    position: relative;
+    width: 100%;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    background-color: rgb(250, 245, 240);
+}
+.textInfoPet{
+    text-align: center;
+    position: absolute;
+    top:40px;
+    width: 100%;
+    text-align: center;
+    font-size: 28px;
+    display: block;
+    margin-bottom:30px;
+}
+.innerWrapperInfoPet{
+    margin-top:130px;
+    display: flex;
+    width: 900px;
+}
+.formInfoPet{
+    width: 100%;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+}
+.infoLeft{
+    flex:1;
+    margin-left: 10%;
+}
+.infoPet__input{
+    width:100%;
+}
+.infoRight{
+    flex:1;
+}
+.infoPet__order{
+    position: absolute;
+    bottom:30px;
+    width:100%;
+    display: block;
+    text-align: center;
+}
+.infoPet__input{
+    display: flex;
+    position: relative;
+    margin-bottom: 25px;
+    align-items: flex-start;
+    flex-direction: column;
+}
+/* .infoPet__input div {
+   width: 80%;
+   display: inline;
+} */
+.infoPet__input__warning{
+    position: absolute;
+    bottom: 100px;
+    display: none;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    color:red;
+}
+.infoPet__input__warning.on{
+    display: block;
+}
+.infoPet__input p{
+    margin-bottom: 10px;
+    font-size: 19px;
+}
+.infoPet__input input{
+    width: 100%;
+    padding: 2px 0;
+    font-size: 16px;
+    line-height: 18px;
+    outline: none;
+}
+.inputNamePet{
+    width: 40% !important;
+}
+#agePet{
+    width:40%;
+    display: block;
+    padding: 0 10px 0 5px;
+    padding-top : 2px;
+    padding-bottom: 2px; 
+    font-size: 16px;
+    height:26px;
+}
+.inputTypePet{
+    width:60% !important;
+}
+#inputWeightPet{
+    width:60% !important;
+    padding-top : 2px;
+    padding-bottom: 2px; 
+    height:26px;
+    font-size: 16px;
+}
+.inputColorPet{
+    width:40% !important;
+}
+#inputHeathPet{
+    width:40% !important;
+    height:26px;
+    font-size: 16px;
+}
+.inputHobbyPet{
+     width:70% !important;
+}
+#inputNote{
+    height:50px !important;
+    width: 100%;
+    resize: none;
+    outline: none;
+    font-size: 16px;
+    height:26px;
+}
+.site-btn{
+    padding: 7px 20px;
+    outline: none;
+    font-size: 16px;
+    cursor:pointer;
+    background-color: cyan;
+    border: 0.5px solid rgb(156, 148, 148);
+    border-radius: 5px;
+}
+.site-btn:hover{
+    background-color: rgb(49, 227, 227);
+}

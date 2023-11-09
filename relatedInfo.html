@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Roommate Application Form</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+      integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+      crossorigin="anonymous"
+    />
+    <style>
+      html,
+      body {
+        min-height: 100%;
+      }
+      body,
+      select,
+      div,
+      form,
+      input,
+      textarea,
+      p {
+        padding: 0;
+        margin: 0;
+        outline: none;
+        font-family: Roboto, Arial, sans-serif;
+        font-size: 14px;
+        color: #666;
+        line-height: 22px;
+      }
+      h1 {
+        position: absolute;
+        margin: 0;
+        font-size: 32px;
+        color: #fff;
+        z-index: 2;
+      }
+      .testbox {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: inherit;
+        padding: 20px;
+      }
+      form {
+        width: 80%;
+        padding: 20px;
+        border-radius: 6px;
+        background: #fff;
+        box-shadow: 0 0 10px 0 #cc0052;
+      }
+      .banner {
+        position: relative;
+        height: 210px;
+        background-image: url("img/backgournd.jpg");
+        object-fit: cover;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      }
+      .banner::after {
+        content: "";
+        background-color: rgba(0, 0, 0, 0.4);
+        position: absolute;
+        width: 100%;
+        height: 100%;
+      }
+      select,
+      input,
+      textarea {
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+      }
+      select {
+        width: 100%;
+        padding: 5px;
+      }
+      input {
+        width: calc(100% - 10px);
+        padding: 5px;
+      }
+      textarea {
+        width: calc(100% - 12px);
+        padding: 5px;
+      }
+      .item:hover p,
+      input:hover::placeholder {
+        color: #cc0052;
+      }
+      .item input:hover,
+      .item textarea:hover {
+        border: 1px solid transparent;
+        box-shadow: 0 0 6px 0 #cc0052;
+        color: #cc0052;
+      }
+      .item {
+        position: relative;
+        margin: 10px 0;
+      }
+      .btn-block {
+        margin-top: 10px;
+        text-align: center;
+      }
+      a {
+        text-decoration: none;
+        width: 150px;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        background: #cc0052;
+        font-size: 16px;
+        color: #fff;
+        cursor: pointer;
+      }
+      a:hover {
+        background: #ff0066;
+      }
+      @media (min-width: 568px) {
+        .name-item,
+        .contact-item {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-between;
+        }
+        .contact-item .item {
+          width: calc(50% - 8px);
+        }
+        .name-item input {
+          width: calc(50% - 20px);
+        }
+        .contact-item input {
+          width: calc(100% - 12px);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="testbox">
+      <form action="/">
+        <div class="banner">
+          <h1>Infomation Your Pet</h1>
+        </div>
+        <div class="contact-item">
+          <div class="item">
+            <p>Name</p>
+            <div class="name-item">
+              <input type="text" name="name" placeholder="" />
+            </div>
+          </div>
+          <div class="item">
+            <p> Color hair</p>
+            <div class="name-item">
+              <input type="text" name="name" placeholder="" />
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-item">
+          <div class="item">
+            <p>Age</p>
+            <select name="inputAgePet" id="agePet">
+              <option value="12">Dưới 1 tuổi</option>
+              <option value="60">Từ 2 đến 5 tuổi</option>
+              <option value="120">Từ 5 đến 10 tuổi</option>
+              <option value="121">Trên 10 tuổi</option>
+            </select>
+            <!-- <input type="text" name="name" /> -->
+          </div>
+          <div class="item">
+            <p>Weight</p>
+            <select name="inputWeightPet" id="inputWeightPet">
+              <option value="2">Dưới 2kg</option>
+              <option value="5">Từ 2kg đến 5kg</option>
+              <option value="10">Từ 5kg đến 10kg</option>
+              <option value="11">Trên 10kg</option>
+            </select>
+          </div>
+        </div>
+        <div class="item">
+          <p>Hobby</p>
+          <input type="text" name="name" />
+        </div>
+        <div class="item">
+          <p>Heatly</p>
+          <select name="inputHeathPet" id="inputHeathPet">
+            <option value="Good">Tốt</option>
+            <option value="Normal">Bình thường</option>
+            <option value="Bad">Yếu</option>
+          </select>
+        </div>
+
+        <div class="item">
+          <p>The origin</p>
+          <input type="text" name="name" />
+        </div>
+        <div class="item">
+          <p>Note</p>
+          <textarea rows="3" required></textarea>
+        </div>
+        <div class="btn-block">
+          <a type="submit" href="index.html">Next</a>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
